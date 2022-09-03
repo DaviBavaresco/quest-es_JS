@@ -4,7 +4,8 @@ function NomeInvertido(nome){
        let nome = prompt("Digite nomes:");
        ListaNomes.push(nome);
    }
-  document.write("Lista de nomes: " + ListaNomes);
-  document.write("Lista de nomes invertida: " + ListaNomes.reverse());
+  document.writeln("Lista de nomes: " + ListaNomes);
+  
+  document.writeln("Lista de nomes invertida: " + ListaNomes.reverse());
 }
 NomeInvertido();
